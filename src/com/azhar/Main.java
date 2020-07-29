@@ -9,7 +9,6 @@ public class Main {
         System.out.println("Enter Number of Lines to be Printed: ");
         int x = scanner.nextInt();
 
-        System.err.println("X : " + x);
         FileGenerator fileGenerator = new FileGenerator();
         try {
             fileGenerator.generate(x);
